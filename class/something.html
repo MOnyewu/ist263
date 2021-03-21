@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Demo</title>
+    <!-- This is the tag for css, it goes inside the head tags-->
+    <style> 
+        p,li {
+            color:chocolate;
+            font-size: 1em;
+            font-family:Arial, Helvetica, sans-serif;
+            font-weight: bolder; 
+            text-decoration:line-through;
+            /*to do the same thing with %, 100% */
+            /*You can look up different formatting properties on w3schools or in your book
+            on page 301 and 302*/
+        }
+            body{
+                color:cornflowerblue;
+
+            }
+            /*Only a tags inside p tags will be green
+            Descendant tags*/
+            p a{
+                color: green;
+            }
+            /* # is for id selectors */
+            #firstp{
+                color:deeppink;
+            }
+            /* this is for class selectors */
+            .thirdp{
+                color:gold;
+            }
+    </style>
+    <!--p is our selector, color is our property, chocolate is our value-->
+    <!-- the declaration is color: darkred -->
+    <!-- 1em is the default font size-->
+</head>
+<body>
+    <!-- id values must be unique. we can't have two elements with firstp id's-->
+    <p id="firstp">Lorem Ipsum</p>
+    <p> Second Paragraph<a href="http://www.google.com">Google</a></p>
+    <!--Class attributes can be used over and over again with the same value-->
+    <p class="thirdp">Third paragraph</p>
+    <ul>
+        <li>Item of the list</li>
+        <li><a href="http://www.google.com">Google</a></li>
+    </ul>
+</body>
+</html>

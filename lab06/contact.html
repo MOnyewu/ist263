@@ -1,0 +1,58 @@
+<!-- #4 ../lab02/contact.html
+     #5 ../lab01/images2/logo.gif
+     #6 ../index.html  
+    -->
+
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Contact</h1>
+    <p>Maduakolam Onyewu <br>
+    Syracuse University<br>
+    120 Slocum Heights<br>
+    Syracuse, NY 13210</p>
+    <a href="mailto:monyewu@syr.edu">monyewu@syr.edu</a>
+
+    <a href="https://www.linkedin.com/in/monyewu/" target="_blank">My Linkedin Profile
+        <img src="../images/LinkedIn-Logos/LI-LogoNew.png" alt="Full Linkedin Logo">
+    </a>
+    
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.9754940996827!2d-76.11750278428093!3d43.02090297914824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f362ff6543bd%3A0x7bd87c750dcbe990!2s120%20Slocum%20Dr%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1614265685745!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    <form action="mailto:monyewu@syr.edu" method="POST">
+        
+        
+        <label for="fname">Type your first name</label><br>
+        <input type="text" id="fname" name="fname"><br>
+
+        <label for="lname">Type your last name</label><br>
+        <input type="text" id="lname" name="lname"><br>
+
+        <h2>Select your level of experience in Cubing</h2>
+
+        <input type="radio" id="beginner" name="level" value="Beginner">
+        <label for="beginner">It takes more than 1 minute to solve the Rubix Cube</label><br>
+
+        <input type="radio" id="intermediate" name="level" value="Intermediate">
+        <label for="intermediate">It takes less than 1 minute to solve the Rubix Cube</label><br>
+
+        <input type="radio" id="advanced" name="level" value="Advanced">
+        <label for="advanced">It takes less than 25 seconds to solve the Rubix Cube</label><br>
+
+        <input type="radio" id="expert" name="level" value="Expert">
+        <label for="expert">It takes less than 15 seconds to solve the Rubix Cube</label><br>
+        
+        <label for="comments">Questions?</label><br>
+        <textarea name="comments" id="comments" rows="10" cols="100">Anything specific you would like to work on?
+        </textarea><br> 
+
+        <input type="submit" value="Send Tutoring Request">
+    </form>
+   
+</body>
+</html>
