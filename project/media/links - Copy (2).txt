@@ -1,0 +1,9 @@
+Part 1: Explanation of the cube. First layer (Cross and corners)
+https://www.youtube.com/watch?v=ofZFUgaxlTQ
+
+
+Part 2: Middle layer edges, top layer cross, top layer corner orientation, top layer corner permutation
+https://www.youtube.com/watch?v=fJw9kWkMnYg
+
+Part 3: Top layer edge permutation 
+https://www.youtube.com/watch?v=0Bg3fCI6glM

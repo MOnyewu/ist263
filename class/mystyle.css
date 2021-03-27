@@ -1,0 +1,39 @@
+h1{
+    color: #F00;
+}
+a:link{
+    color: #0F0;
+}
+a:visited{
+    color: #00F;
+}
+a:hover{
+    color: #8000ff;
+    background-color:aqua;
+
+}
+
+.lookdifferent:hover{
+    color: #999999;
+}
+
+body{
+    background-image: url(../images/LinkedIn-Logos/LI-In-Bug.png);
+    background-color: #c9c9ab;
+    background-size: 100%;
+}
+
+p{
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 10px;
+    border: 5px solid #aaaaaa;
+    width: 300px;
+}
+
+.mylink{
+    border: 1px solid #000000;
+    padding: 20px;
+    margin: 20px;
+    display: block;
+}
