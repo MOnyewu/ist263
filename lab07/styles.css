@@ -1,3 +1,15 @@
+/*
+a.	Body background color: #0D1017;
+b.	Text color: #ACA4A1;
+c.	Link color: #203838;
+d.	Heading color: #7292A1;
+e.	Site Navigation Background: #3F283E;
+f.	Site Navigation Highlight Color: #8000ff;
+g.	Site Navigation Link Color: #203838;
+
+*/
+
+
 body {
     background-color: #0D1017;
 }
@@ -12,4 +24,17 @@ a:link{
 
 h1{
     color: #7292A1;
+}
+nav{
+    background-color: #3F283E;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+nav a{
+    color: #203838;
+}
+
+nav a:hover{
+    color: #8000ff;
 }
