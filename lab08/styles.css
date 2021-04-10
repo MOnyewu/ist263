@@ -13,6 +13,9 @@ a:link{
 h1{
     color: #7292A1;
 }
+form{
+    margin: 15px;
+}
 
 .quote{float: right;}
 .pic{float: left;}
@@ -21,11 +24,15 @@ h1{
     background-color: white;
     order: 1;
     margin: 10px;
+    padding: 20px;
+    border-radius: 1em;
 }
 .clear{clear: both;}
 .map{
     background-color: lightblue;
     display: flex;
-    order: 2;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 1em;
 }
 
