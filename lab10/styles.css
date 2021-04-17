@@ -1,18 +1,18 @@
 body {
-    background-color: #1953da;
+    background-color: #000000;
 }
 
 p{
-    color: #833d23;
+    color: #FFFFFF;
     font-size: 1em;
 }
 
 a:link{
-    color: #203838;
+    color: #FFFFFF;
 }
 
-h1{
-    color: #7292A1;
+h1,h2{
+    color: #FFFFFF;
     font-size: 1em;
 }
 form{
