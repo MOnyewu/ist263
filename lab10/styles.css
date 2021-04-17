@@ -79,6 +79,6 @@ div.map h2{
     color: black;
 }
 
-div.address p{
+div.address p, div.address a:link, div.address a:visited{
     color: black;
 }
