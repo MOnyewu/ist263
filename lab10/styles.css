@@ -1,0 +1,69 @@
+body {
+    background-color: #000000;
+}
+
+p{
+    color: #FFFFFF;
+    font-size: 1em;
+}
+
+a:link{
+    color: #FFFFFF;
+}
+
+h1,h2,dl{
+    color: #FFFFFF;
+    font-size: 1em;
+}
+form{
+    margin: 15px;
+}
+
+.quote{float: right;}
+.pic{float: left;}
+.address{
+    float: left;
+    background-color: white;
+    order: 1;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 1em;
+}
+.clear{clear: both;}
+.map{
+    background-color: lightblue;
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 1em;
+    flex-wrap: wrap;
+}
+.pic{
+    max-width: 100%;
+}
+@media only screen and (max-width: 768px){
+    nav a{
+        display: block;
+        width: 100%;
+    }
+    span{
+        display: none;
+    }
+}
+
+#skip-to-content{
+    position: absolute;
+    left: -999px;
+    background-color: white;
+    border: 1px solid gray;
+    color: black;
+}
+#skip-to-content:focus{
+    position: absolute;
+    left: 10px;
+}
+
+nav a:link{
+    color: white;
+    font-size: 2em;
+}
