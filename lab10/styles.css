@@ -71,3 +71,11 @@ nav a:link{
 table, caption,tr{
     color: white;
 }
+
+div.map h2{
+    color: black;
+}
+
+div.address p{
+    color: black;
+}
