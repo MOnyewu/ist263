@@ -56,8 +56,13 @@ form{
     left: -999px;
     background-color: white;
     border: 1px solid gray;
+    color: black;
 }
 #skip-to-content:focus{
     position: absolute;
     left: 10px;
+}
+
+nav a:link{
+    color: white;
 }
