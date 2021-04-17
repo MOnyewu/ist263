@@ -10,6 +10,9 @@ p{
 a:link{
     color: #FFFFFF;
 }
+a:visited{
+    color: #e6e6e6;
+}
 
 h1,h2,dl{
     color: #FFFFFF;
