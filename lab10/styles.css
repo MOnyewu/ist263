@@ -59,14 +59,14 @@ form{
     left: -999px;
     background-color: white;
     border: 1px solid gray;
-    color: white;
+    color: black;
 }
 #skip-to-content:focus{
     position: absolute;
     left: 10px;
 }
 
-nav a:link, nav a:visited{
+nav a:link, nav a:visited, nav span{
     color: white;
     font-size: 2em;
 }
