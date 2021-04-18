@@ -59,7 +59,7 @@ form{
     left: -999px;
     background-color: white;
     border: 1px solid gray;
-    color: black;
+    color: white;
 }
 #skip-to-content:focus{
     position: absolute;
@@ -80,5 +80,5 @@ div.map h2{
 }
 
 div.address p, div.address a:link, div.address a:visited{
-    color: black;
+    color: white;
 }
