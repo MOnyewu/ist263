@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>New Page</title>
+    <script>
+        function doesThing(){
+            alert("You left this form element")
+        }
+    </script>
+</head>
+<body>
+    <form action="mailto:monyewu@syr.edu" method="POST">
+        <input type="text" onblur="doesThing();" name="Firstname" id="Firstname">
+        <label for="Firstname">Type your first name</label> <br>
+        <!-- the for attribute in label corresponds to the id attribute in input-->
+        <!-- the values must be the same to associate the label with form field-->
+        <input type="text" name="last">
+        <input type="submit" value="Send Application">
+    </form>
+</body>
+</html>
