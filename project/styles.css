@@ -53,3 +53,8 @@ nav a:link, nav a:visited, nav span{
 nav {
     color: white;
 }
+
+img{
+    width: 10em;
+    height: 10em;
+}
