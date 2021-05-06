@@ -1,0 +1,60 @@
+body {
+    background-color: #000000;
+}
+
+p{
+    color: #FFFFFF;
+    font-size: 1em;
+}
+
+a:visited{
+    color: #e6e6e6;
+}
+
+h1,h2,h3{
+    color: #FFFFFF;
+    font-size: 1em;
+}
+
+
+.clear{clear: both;}
+
+@media only screen and (max-width: 768px){
+    nav a{
+        display: block;
+        width: 100%;
+    }
+    span{
+        display: none;
+    }
+}
+
+#skip-to-content{
+    position: absolute;
+    left: -999px;
+    background-color: white;
+    border: 1px solid gray;
+    color: #1F4F51; 
+   
+    
+}
+#skip-to-content:focus{
+    position: absolute;
+    left: 10px;
+}
+
+nav a:link, nav a:visited, nav span{
+    color: white;
+    font-size: 2em;
+}
+
+
+
+nav {
+    color: white;
+}
+
+img{
+    width: 10em;
+    height: 10em;
+}
