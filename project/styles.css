@@ -43,7 +43,7 @@ h1,h2,h3{
     left: 10px;
 }
 
-nav a:link, nav a:visited, nav span{
+nav a:link,  nav a:visited, nav span{
     color: white;
     font-size: 2em;
 }
@@ -58,3 +58,11 @@ img{
     width: 10em;
     height: 10em;
 }
+
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Goblin One', cursive;
+}
+
+
+
