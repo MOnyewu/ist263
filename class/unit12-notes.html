@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <title>Unit 12</title>
+    <script>
+        function correct(){
+            document.getElementById("rightanswer").innerHTML = "True is correct!";
+        }
+        function changeImage(){
+            document.getElementById("rollover").setAttribute("src","https://laferger.github.io/ist263/images/arrow_over.PNG")
+        }
+        function changeBack(){
+            document.getElementById("rollover").setAttribute("src","https://laferger.github.io/ist263/images/arrow.PNG");
+        }
+        function changeBgColor(){
+            document.getElementById("pagecolor").style.backgroundColor = 
+            document.getElementById("cp").value;
+        }
+    </script>
+</head>
+<body id="pagecolor">
+    <p>JavaScript is the only programming language that runs in your browser.</p>
+    <span id="rightanswer" onclick="correct();">True</span><br>
+    <span>False</span>
+    <br>
+    <img src="https://laferger.github.io/ist263/images/arrow.PNG" id="rollover" onmouseover="changeImage();" onmouseout="changeBack();">
+
+    <form>
+        <input type="color" id="cp" onchange="changeBgColor();">
+    </form>
+</body>
+</html>
