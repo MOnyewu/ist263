@@ -77,9 +77,12 @@ h1,h2,h3,h4,h5,h6{
             
 .part1, .part2, .part3{display: flex;}
 nav, .section1,.section2,.section3,.section4,.section5,.section6,.section7, section{
-    
     flex: 1;
     background-color: black;
+}
+
+.section3 p ,.section5 p,  .section7 p{
+    color: black;
 }
 
 .begin{
