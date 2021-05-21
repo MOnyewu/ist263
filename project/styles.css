@@ -34,7 +34,7 @@ h1,h2,h3{
     left: -999px;
     background-color: black;
     border: 1px solid gray;
-    color: E0B0AE; 
+    color: white; 
    
     
 }
@@ -42,6 +42,7 @@ h1,h2,h3{
     position: absolute;
     left: 10px;
 }
+
 
 nav a:link,  nav a:visited, nav span, a:link, a:visited{
     color: black;
