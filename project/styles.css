@@ -43,7 +43,7 @@ h1,h2,h3{
     left: 10px;
 }
 
-nav a:link,  nav a:visited, nav span{
+nav a:link,  nav a:visited, nav span, a:link{
     color: white;
     font-size: 2em;
 }
@@ -64,5 +64,17 @@ h1,h2,h3,h4,h5,h6{
     font-family: 'Goblin One', cursive;
 }
 
+#hamicon {display: none;}
+            nav a:hover {background-color: lightseagreen;}
+            @media only screen and (max-width: 600px) {
+                span {display: none;}
+                #hamicon {display: block;}
+                nav a {
+                    display: block;
+                    padding: 10px 0px;
+                    }
+                    #navlinks{display: none;}
+            }
+            
 
 

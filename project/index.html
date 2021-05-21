@@ -7,13 +7,26 @@
     <link rel="shortcut icon" type="image/x-icon" href="media/favicon.ico">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Goblin+One&display=swap" rel="stylesheet">
+<script>
+    function changeNav(){
+        if(document.getElementById("navlinks").style.getPropertyValue("display")== "none"){
+            document.getElementById("navlinks").style.display = "block";
+        }
+        else {
+            document.getElementById("navlinks").style.display = "none";
+        }
+    }
+</script>
 </head>
 <body>
     <nav>
+        <img src="https://laferger.github.io/ist263/images/hamburger.png" id="hamicon" alt="hamburger icon" width="35" onclick="changeNav();">
+        <div id="navlinks">
         <a id="skip-to-content" href="#content">Skip to Content</a>
         <a href="index.html">Home</a> <span>|</span>
         <a href="beginner.html">Beginner Method</a> <span>|</span>
         <a href="resources.html">Resources</a> 
+    </div>
     </nav>
     <section>
     <a id="content"></a>
