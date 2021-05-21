@@ -1,18 +1,18 @@
 body {
-    background-color: #000000;
+    background-color: white;
 }
 
 p{
-    color: #FFFFFF;
+    color: black;
     font-size: 1em;
 }
 
 a:visited{
-    color: #e6e6e6;
+    color: black;
 }
 
 h1,h2,h3{
-    color: #FFFFFF;
+    color: black;
     font-size: 1em;
 }
 
@@ -32,9 +32,9 @@ h1,h2,h3{
 #skip-to-content{
     position: absolute;
     left: -999px;
-    background-color: white;
+    background-color: black;
     border: 1px solid gray;
-    color: #1F4F51; 
+    color: E0B0AE; 
    
     
 }
@@ -44,14 +44,14 @@ h1,h2,h3{
 }
 
 nav a:link,  nav a:visited, nav span, a:link, a:visited{
-    color: white;
+    color: black;
     font-size: 2em;
 }
 
 
 
 nav {
-    color: white;
+    color: black;
 }
 
 img{
@@ -78,13 +78,10 @@ h1,h2,h3,h4,h5,h6{
 .part1, .part2, .part3{display: flex;}
 nav, .section1,.section2,.section3,.section4,.section5,.section6,.section7, section{
     flex: 1;
-    background-color: black;
+    background-color: white;
 }
 
-.section3 p ,.section5 p,  .section7 p{
-    color: black;
-}
 
 .begin{
-    background-color: white;
+    background-color: black;
 }
